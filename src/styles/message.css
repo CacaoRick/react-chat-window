@@ -1,6 +1,5 @@
 .sc-message {
-  width: 300px;
-  margin: auto;
+  margin: 0 20px;
   padding-bottom: 10px;
   display: flex;
 }
@@ -87,10 +86,4 @@
 
 .sc-message--file .sc-user-input--file-icon:hover path {
   fill: rgba(86, 88, 103, 0.3);
-}
-
-@media (max-width: 450px) {
-  .sc-message {
-    width: 80%;
-  }
 }
