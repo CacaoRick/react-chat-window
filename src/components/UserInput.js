@@ -118,7 +118,8 @@ class UserInput extends Component {
         <input
           type="file"
           name="files[]"
-          multiple
+          multiple={false}
+          accept="image/*"
           ref={(e) => { this._fileUploadButton = e; }}
           onChange={this._onFilesSelected.bind(this)}
         />
