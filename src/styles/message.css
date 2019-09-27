@@ -59,6 +59,14 @@
   font-size: 40px;
 }
 
+.sc-message--image {
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  cursor: pointer;
+  max-width: 50%;
+}
+
 .sc-message--file {
   background: white;
   border: solid 1px #CCCDD1;
