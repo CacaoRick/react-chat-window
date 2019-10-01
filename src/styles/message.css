@@ -58,12 +58,17 @@
   font-size: 40px;
 }
 
-.sc-message--image {
+.sc-message--image-a {
   background: white;
   border-radius: 5px;
   display: flex;
   cursor: pointer;
   max-width: 50%;
+}
+
+.sc-message--image {
+  width: 100%;
+  border-radius: 5px;
 }
 
 .sc-message--file {

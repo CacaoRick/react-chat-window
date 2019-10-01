@@ -3,6 +3,7 @@ import React from 'react';
 const ImageMessage = (props) => {
   return (
     <a
+      className="sc-message--image-a"
       rel="noopener noreferrer"
       target="_blank"
       href={props.data.url}
