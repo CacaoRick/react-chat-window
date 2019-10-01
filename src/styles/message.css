@@ -63,7 +63,7 @@
   border-radius: 5px;
   display: flex;
   cursor: pointer;
-  max-width: 50%;
+  max-width: 75%;
 }
 
 .sc-message--image {
