@@ -38,13 +38,13 @@
   white-space: pre-wrap;
   -webkit-font-smoothing: subpixel-antialiased;
   word-wrap: break-word;
-  width: calc(100% - 90px);
+  max-width: calc(100% - 90px);
 }
 
 .sc-message--content.sent .sc-message--text {
   color: white;
   background-color: #4e8cff;
-  max-width: calc(100% - 120px);
+  max-width: 75%;
   word-wrap: break-word;
 }
 
